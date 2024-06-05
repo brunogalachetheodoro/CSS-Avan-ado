@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@keyframes animacao3 {
+    0% {left:0;border-radius: 0%;}
+    50% {left: 200px; background-color: rgb(216, 14, 14);border-radius: 100%;}
+    100% {left:0;border-radius: 0%;}
+}
+
+.animation-div3 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation-name: animacao3;
+    position: relative;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 20;
+}
